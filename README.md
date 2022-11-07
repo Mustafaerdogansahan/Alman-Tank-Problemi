@@ -1,2 +1,8 @@
 # Alman-Tank-Problemi
 Temel Matematik www.patika.dev
+İstatistiksel tahmin teorisinde, Alman tank problemi, değiştirme olmaksızın örneklemeden ayrık bir düzgün dağılımın maksimumunu tahmin etmekten ibarettir.
+Bu problem, 2.Dünya Savaşı sırasında İngiliz istihbaratından gelen bilginin doğruluğunu kontrol etmek için ortaya çıkmıştır. Savaşın ortasında, istihbarat teşkilatlarının sahadan getirdiği raporlarda Almanların ayda 1000'in üzerinde tank üretimi yaptığı bildiriliyordu. Bu veriler kamuoyunda Almanların yenilmez olduğuna dair bir algı oluşmuştu. Ancak İngiliz matematikçiler Alman tanklarının fabrikadan şifrelenmiş seri numaralarından yararlanıp tankların 1’den n’ye kadar sayma sayıları kullanılarak numaralandığını fark ettiler ve bu sayılardan Almanların ürettiği toplam tank sayısının nasıl tahmin edilebileceği üzerine araştırmalar yaparak frekans çıkarımı ve Bayes çıkarımı olarak adlandırılan iki farklı yaklaşım bulmuşlardır.
+
+Frekens çıkarımına göre ele geçirilen tank sayısı "k", bunlardan seri numarası en büyüğü "m" ise: N(tahmini tank sayısı) yaklaşık m+(m/k)-1 kadardır. (N’nin k’dan yeteri kadar büyük olması lazım). Örneğin 1940 Haziranı, 1941 Temmuzu ve 1942 Ağustosu için İngiliz istihbaratı Almanların sırasıyla yaklaşık 1000, 1550 ve 1550 tank üretimi olduğunu belirtilmesine rağmen, İngilizler yukarıdaki hesaba göreyse bu aylar için üretim sırasıyla 169, 244 ve 327 olması gerektiğini hesaplamışlardır. Savaş bittikten sonra Almanların üretim kayıtlarına baktıklarında yıllara göre Almanların 122, 271 ve 342 tank ürettikleri görülmüştür.
+
+https://en.wikipedia.org/wiki/German_tank_problem
